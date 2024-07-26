@@ -5,6 +5,7 @@ import { ConnexionComponent } from './Compenents/connexion/connexion.component';
 import { MotsPasseOblierComponent } from './Compenents/mots-passe-oblier/mots-passe-oblier.component';
 import { IdentifierComponent } from './Compenents/identifier/identifier.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
+
  
 const routes: Routes = [
 {
@@ -31,10 +32,12 @@ const routes: Routes = [
   path: 'identifier',
   component: IdentifierComponent
 },
+
 {
-  path: 'formulaire',
+  path: 'CRÉER UN FORMULAIRE',
   component: FormulaireComponent
 },
+
 
 
 

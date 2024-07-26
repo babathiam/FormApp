@@ -8,6 +8,8 @@ import { ConnexionComponent } from './Compenents/connexion/connexion.component';
 import { MotsPasseOblierComponent } from './Compenents/mots-passe-oblier/mots-passe-oblier.component';
 import { IdentifierComponent } from './Compenents/identifier/identifier.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
+
+
  
 @NgModule({
   declarations: [
@@ -17,6 +19,9 @@ import { FormulaireComponent } from './formulaire/formulaire.component';
     MotsPasseOblierComponent,
     IdentifierComponent,
     FormulaireComponent,
+    
+   
+    
     
   ],
   imports: [
